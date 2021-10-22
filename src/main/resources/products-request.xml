@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://vdfbdp.com/soap-example">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getProductRequest>
+            <us:name>apple</us:name>
+        </us:getProductRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
